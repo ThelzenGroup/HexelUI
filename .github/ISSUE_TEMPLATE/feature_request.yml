@@ -1,0 +1,53 @@
+name: Feature Request
+description: Suggest an enhancement or new feature
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Feature Type
+      description: What kind of feature is this?
+      options:
+        - New component
+        - Component enhancement
+        - CLI enhancement
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: Describe the problem this feature would solve
+      placeholder: As a developer building a SaaS dashboard, I need...
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed Solution
+      description: How would you like this to work?
+      placeholder: |
+        ```tsx
+        <NewComponent variant="default">
+          Example usage
+        </NewComponent>
+        ```
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: What other solutions have you tried or considered?
+    validations:
+      required: false
+  - type: textarea
+    id: mockups
+    attributes:
+      label: Design Mockups
+      description: Screenshots or mockups (optional)
+    validations:
+      required: false

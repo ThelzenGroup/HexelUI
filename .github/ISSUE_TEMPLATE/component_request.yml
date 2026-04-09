@@ -1,0 +1,50 @@
+name: Component Request
+description: Request a new component for HexelUI
+title: "[Component]: "
+labels: ["enhancement", "component:request"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Component Name
+      description: What should this component be called?
+      placeholder: DataTable
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What does this component do?
+      placeholder: A sortable, filterable data table with pagination
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: Where would this be used in a SaaS app?
+      placeholder: Displaying user lists, transaction history, analytics data
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Similar Examples
+      description: Links to similar components in other libraries
+      placeholder: |
+        - shadcn/ui DataTable: https://ui.shadcn.com/docs/components/data-table
+        - Mantine Table: https://mantine.dev/core/table/
+    validations:
+      required: false
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this component to you?
+      options:
+        - High - blocking my project
+        - Medium - would be very helpful
+        - Low - nice to have
+    validations:
+      required: true
