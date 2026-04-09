@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/ui" },
+    { "path": "./packages/cli" },
+    { "path": "./packages/eslint-config" },
+    { "path": "./packages/tailwind-config" },
+    { "path": "./apps/docs" }
+  ]
+}
