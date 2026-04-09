@@ -1,0 +1,19 @@
+{
+  "name": "card",
+  "type": "registry:ui",
+  "description": "Displays a card with header, content, and footer.",
+  "category": "layout",
+  "docs": "/docs/components/card",
+  "dependencies": [],
+  "peerDependencies": { "react": ">=18.0.0" },
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "ui/card.tsx",
+      "type": "registry:ui",
+      "target": "components/ui/card.tsx"
+    }
+  ],
+  "keywords": ["card", "container", "panel", "layout"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "separator",
+  "type": "registry:ui",
+  "description": "Visually or semantically separates content.",
+  "category": "primitives",
+  "docs": "/docs/components/separator",
+  "dependencies": [],
+  "peerDependencies": { "react": ">=18.0.0" },
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "ui/separator.tsx",
+      "type": "registry:ui",
+      "target": "components/ui/separator.tsx"
+    }
+  ],
+  "keywords": ["separator", "divider", "hr"]
+}

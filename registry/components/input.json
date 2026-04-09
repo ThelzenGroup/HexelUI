@@ -1,0 +1,19 @@
+{
+  "name": "input",
+  "type": "registry:ui",
+  "description": "Displays a form input field or a component that looks like an input field.",
+  "category": "primitives",
+  "docs": "/docs/components/input",
+  "dependencies": [],
+  "peerDependencies": { "react": ">=18.0.0" },
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "ui/input.tsx",
+      "type": "registry:ui",
+      "target": "components/ui/input.tsx"
+    }
+  ],
+  "keywords": ["input", "form", "text"]
+}

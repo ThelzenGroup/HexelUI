@@ -1,0 +1,19 @@
+{
+  "name": "label",
+  "type": "registry:ui",
+  "description": "Renders an accessible label associated with controls.",
+  "category": "primitives",
+  "docs": "/docs/components/label",
+  "dependencies": [],
+  "peerDependencies": { "react": ">=18.0.0" },
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "ui/label.tsx",
+      "type": "registry:ui",
+      "target": "components/ui/label.tsx"
+    }
+  ],
+  "keywords": ["label", "form", "accessibility"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "alert",
+  "type": "registry:ui",
+  "description": "Displays a callout for user attention.",
+  "category": "feedback",
+  "docs": "/docs/components/alert",
+  "dependencies": ["class-variance-authority"],
+  "peerDependencies": { "react": ">=18.0.0" },
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "ui/alert.tsx",
+      "type": "registry:ui",
+      "target": "components/ui/alert.tsx"
+    }
+  ],
+  "keywords": ["alert", "callout", "notification", "warning"]
+}

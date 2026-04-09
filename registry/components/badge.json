@@ -1,0 +1,19 @@
+{
+  "name": "badge",
+  "type": "registry:ui",
+  "description": "Displays a badge or a component that looks like a badge.",
+  "category": "primitives",
+  "docs": "/docs/components/badge",
+  "dependencies": ["class-variance-authority"],
+  "peerDependencies": { "react": ">=18.0.0" },
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "ui/badge.tsx",
+      "type": "registry:ui",
+      "target": "components/ui/badge.tsx"
+    }
+  ],
+  "keywords": ["badge", "tag", "status", "label"]
+}
