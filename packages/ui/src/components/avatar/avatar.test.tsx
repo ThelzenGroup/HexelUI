@@ -1,9 +1,8 @@
 import * as React from 'react'
 import { render, screen } from '@testing-library/react'
-import userEvent from '@testing-library/user-event'
 import { axe } from 'vitest-axe'
 import { describe, it, expect } from 'vitest'
-import { Avatar, AvatarImage, AvatarFallback } from './avatar'
+import { Avatar, AvatarFallback } from './avatar'
 
 describe('Avatar', () => {
   it('renders fallback when no image', () => {

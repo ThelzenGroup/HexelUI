@@ -1,5 +1,5 @@
 import { writeFileSync, mkdirSync, existsSync } from 'fs'
-import { join, dirname } from 'path'
+import { join } from 'path'
 import { execSync } from 'child_process'
 import pc from 'picocolors'
 import ora from 'ora'
