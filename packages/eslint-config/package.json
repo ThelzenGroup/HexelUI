@@ -11,8 +11,7 @@
   },
   "files": ["index.js", "next.js", "react.js"],
   "scripts": {
-    "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^8.14.0",
