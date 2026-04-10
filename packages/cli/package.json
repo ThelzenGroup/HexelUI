@@ -7,7 +7,9 @@
   "bin": {
     "hexelui": "./dist/index.js"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "engines": {
     "node": ">=20.0.0"
   },
@@ -24,9 +26,11 @@
     "prompts": "^2.4.2"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@hexelui/eslint-config": "workspace:*",
     "@types/prompts": "^2.4.9",
     "tsup": "^8.3.5",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.58.1"
   }
 }
