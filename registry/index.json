@@ -1,47 +1,21 @@
 {
   "version": "0.1.0",
   "components": [
-    {
-      "name": "alert",
-      "description": "Displays a callout for user attention.",
-      "category": "feedback",
-      "docs": "/docs/components/alert"
-    },
-    {
-      "name": "badge",
-      "description": "Displays a badge or a component that looks like a badge.",
-      "category": "primitives",
-      "docs": "/docs/components/badge"
-    },
-    {
-      "name": "button",
-      "description": "Displays a button or a component that looks like a button.",
-      "category": "primitives",
-      "docs": "/docs/components/button"
-    },
-    {
-      "name": "card",
-      "description": "Displays a card with header, content, and footer.",
-      "category": "layout",
-      "docs": "/docs/components/card"
-    },
-    {
-      "name": "input",
-      "description": "Displays a form input field or a component that looks like an input field.",
-      "category": "primitives",
-      "docs": "/docs/components/input"
-    },
-    {
-      "name": "label",
-      "description": "Renders an accessible label associated with controls.",
-      "category": "primitives",
-      "docs": "/docs/components/label"
-    },
-    {
-      "name": "separator",
-      "description": "Visually or semantically separates content.",
-      "category": "primitives",
-      "docs": "/docs/components/separator"
-    }
+    { "name": "alert", "description": "Displays a callout for user attention.", "category": "feedback", "docs": "/docs/components/alert" },
+    { "name": "avatar", "description": "An image element with a fallback for representing the user.", "category": "primitives", "docs": "/docs/components/avatar" },
+    { "name": "badge", "description": "Displays a badge or a component that looks like a badge.", "category": "primitives", "docs": "/docs/components/badge" },
+    { "name": "button", "description": "Displays a button or a component that looks like a button.", "category": "primitives", "docs": "/docs/components/button" },
+    { "name": "card", "description": "Displays a card with header, content, and footer.", "category": "layout", "docs": "/docs/components/card" },
+    { "name": "checkbox", "description": "A control that allows the user to toggle between checked and not checked.", "category": "primitives", "docs": "/docs/components/checkbox" },
+    { "name": "dialog", "description": "A window overlaid on either the primary window or another dialog window.", "category": "overlays", "docs": "/docs/components/dialog" },
+    { "name": "dropdown-menu", "description": "Displays a menu to the user triggered by a button.", "category": "overlays", "docs": "/docs/components/dropdown-menu" },
+    { "name": "input", "description": "Displays a form input field or a component that looks like an input field.", "category": "primitives", "docs": "/docs/components/input" },
+    { "name": "label", "description": "Renders an accessible label associated with controls.", "category": "primitives", "docs": "/docs/components/label" },
+    { "name": "select", "description": "Displays a list of options for the user to pick from, triggered by a button.", "category": "primitives", "docs": "/docs/components/select" },
+    { "name": "separator", "description": "Visually or semantically separates content.", "category": "primitives", "docs": "/docs/components/separator" },
+    { "name": "switch", "description": "A control that allows the user to toggle between checked and not checked.", "category": "primitives", "docs": "/docs/components/switch" },
+    { "name": "tabs", "description": "A set of layered sections of content displayed one at a time.", "category": "navigation", "docs": "/docs/components/tabs" },
+    { "name": "toast", "description": "A succinct message that is displayed temporarily.", "category": "feedback", "docs": "/docs/components/toast" },
+    { "name": "tooltip", "description": "A popup that displays information related to an element.", "category": "overlays", "docs": "/docs/components/tooltip" }
   ]
 }
