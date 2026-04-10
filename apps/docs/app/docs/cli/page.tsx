@@ -49,7 +49,7 @@ export default function CLIPage() {
       <h2>Configuration</h2>
       <p>The <code>hexelui.json</code> file stores your project configuration:</p>
       <pre><code>{`{
-  "$schema": "https://raw.githubusercontent.com/ThelzenGroup/HexelUI/main/schema.json",
+  &quot;$schema&quot;: &quot;https://raw.githubusercontent.com/ThelzenGroup/HexelUI/main/schema.json&quot;,
   "version": "0.1.0",
   "style": "default",
   "tsx": true,
