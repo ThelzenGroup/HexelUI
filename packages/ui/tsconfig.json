@@ -3,7 +3,8 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "outDir": "dist"
+    "outDir": "dist",
+    "types": ["vitest/globals", "@testing-library/jest-dom", "vitest-axe"]
   },
   "include": ["src", "../../vitest.setup.ts"],
   "exclude": ["node_modules", "dist"]
