@@ -167,7 +167,7 @@ export async function init(options: { yes: boolean }) {
     } else {
       cssSpinner.info(pc.gray(`${config.tailwind.css} already has CSS variables — skipped`))
     }
-  } catch (err) {
+  } catch {
     cssSpinner.warn(
       pc.yellow(
         `Could not write to ${config.tailwind.css} — add CSS variables manually from the docs`
