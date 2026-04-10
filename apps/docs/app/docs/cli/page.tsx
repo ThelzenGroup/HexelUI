@@ -68,7 +68,7 @@ export default function CLIPage() {
       <h3>Options</h3>
       <ul>
         <li><code>version</code> — HexelUI version (used to fetch components from the correct release)</li>
-        <li><code>style</code> — Component style (currently only "default")</li>
+        <li><code>style</code> — Component style (currently only &quot;default&quot;)</li>
         <li><code>tsx</code> — Use <code>.tsx</code> extension (vs <code>.jsx</code>)</li>
         <li><code>tailwind.css</code> — Path to your global CSS file</li>
         <li><code>tailwind.baseColor</code> — Base color theme (zinc, slate, stone, gray)</li>

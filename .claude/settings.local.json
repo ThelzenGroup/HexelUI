@@ -4,7 +4,9 @@
       "Bash(npm install:*)",
       "Bash(git add:*)",
       "Bash(git commit -m 'chore: initial monorepo setup with Turborepo + pnpm:*)",
-      "Bash(pnpm build:*)"
+      "Bash(pnpm build:*)",
+      "Bash(gh run:*)",
+      "Bash(pnpm lint:*)"
     ]
   }
 }
